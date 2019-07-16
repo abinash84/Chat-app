@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Layout from './components/Layout';
-import './index.scss';
+import './index.css';
 class App extends Component {
   render(){
   return (
