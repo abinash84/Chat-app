@@ -31,7 +31,7 @@ export default class SideBar extends Component{
 
 
 	addChatForUser = (username)=>{
-		console.log("OYEEE");
+	
 		this.props.onSendPrivateMessage(username);
 		this.setActiveSideBar(SideBar.type.CHATS);
 	}
